@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>King Sukh Guest House</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="src\assets\header.jpg" />
+</head>
+
+<body class="bg-white text-gray-800">
+  <!-- Header -->
+  <header class="bg-gray-900 text-white">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold">King Sukh Guest House</h1>
+      <nav class="space-x-4">
+        <a href="#about" class="hover:text-yellow-400">About</a>
+        <a href="#rooms" class="hover:text-yellow-400">Rooms</a>
+        <a href="#gallery" class="hover:text-yellow-400">Gallery</a>
+        <a href="#attractions" class="hover:text-yellow-400">Attractions</a>
+        <a href="#contact" class="hover:text-yellow-400">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative">
+    <img src="src\assets\room1.jpg" alt="Guest House" class="w-full h-[60vh] object-cover" />
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+      <h2 class="text-white text-4xl md:text-6xl font-bold">Experience Comfort & Hospitality</h2>
+    </div>
+  </section>
+
+  <!-- About / Services -->
+  <section id="about" class="py-12 px-4 md:px-12">
+    <div class="max-w-5xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-4">Welcome to King Sukh</h3>
+      <p class="text-lg">Located in the heart of Purulia, King Sukh Guest House offers a blend of comfort and tradition. Enjoy our curated services and make the most of your stay.</p>
+      <div class="mt-8 grid md:grid-cols-2 gap-8">
+        <img src="src\assets\service.jpg" alt="Service" class="rounded-lg shadow-md" />
+        <img src="src\assets\recep.jpg" alt="Reception" class="rounded-lg shadow-md" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Rooms -->
+  <section id="rooms" class="py-12 px-4 bg-gray-50">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-6">Our Rooms</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <img src="src\assets\room1.jpg" class="rounded shadow-md" alt="Room 1">
+        <img src="src\assets\large.jpg" class="rounded shadow-md" alt="Room 2">
+        <img src="src\assets\out.jpg" class="rounded shadow-md" alt="Outside View">
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="py-12 px-4">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-6">Gallery</h3>
+      <div class="grid md:grid-cols-4 gap-4">
+        <img src="src\assets\large.jpg" class="rounded shadow" alt="Gallery Image">
+        <img src="src\assets\header.jpg" class="rounded shadow" alt="Gallery Image">
+        <img src="src\assets\recep.jpg" class="rounded shadow" alt="Gallery Image">
+        <img src="src\assets\service.jpg" class="rounded shadow" alt="Gallery Image">
+      </div>
+    </div>
+  </section>
+
+  <!-- Nearby Attractions -->
+  <section id="attractions" class="py-12 px-4 bg-gray-100">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-6">Nearby Attractions</h3>
+      <div class="grid md:grid-cols-4 gap-4">
+        <img src="src\assets\baranti.webp" class="rounded shadow-md" alt="Baranti">
+        <img src="src\assets\ayodhya.webp" class="rounded shadow-md" alt="Ayodhya Hills">
+        <img src="src\assets\palash.webp" class="rounded shadow-md" alt="Palash Bloom">
+        <img src="src\assets\mithonDam.webp" class="rounded shadow-md" alt="Mithon Dam">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-12 px-4">
+    <div class="max-w-xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-4">Contact Us</h3>
+      <p class="mb-4">For bookings and inquiries, feel free to reach out to us anytime.</p>
+      <form class="space-y-4">
+        <input type="text" placeholder="Name" class="w-full border p-2 rounded" />
+        <input type="email" placeholder="Email" class="w-full border p-2 rounded" />
+        <textarea placeholder="Message" class="w-full border p-2 rounded"></textarea>
+        <button type="submit" class="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600">Send Message</button>
+      </form>
+      <div class="flex justify-center mt-6 space-x-4">
+        <img src="src\assets\facebook.png" class="h-8" alt="Facebook">
+        <img src="src\assets\instagram.png" class="h-8" alt="Instagram">
+        <img src="src\assets\twitter.png" class="h-8" alt="Twitter">
+        <img src="src\assets\youtube.png" class="h-8" alt="YouTube">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-4">
+    <p>&copy; 2025 King Sukh Guest House. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
